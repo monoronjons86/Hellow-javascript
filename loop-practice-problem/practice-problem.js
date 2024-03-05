@@ -17,3 +17,16 @@ console.log(totalmarks);
 var average=totalmarks/4
 console.log(average);
 
+var fruits=['Apple','Banana','Orange']
+var bananaIndex=fruits.indexOf('Banana');
+fruits[1]='Mango';
+fruits.pop()
+fruits.push('WaterMelon')
+console.log(bananaIndex);
+console.log(fruits);
+
+var scrore=85
+if(85>66){
+    console.log('grade b')
+}
+
